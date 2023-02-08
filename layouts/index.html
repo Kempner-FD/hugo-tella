@@ -23,11 +23,14 @@
     {{- partial "slide.html" . -}}
     {{- partial "strip.html" . -}}
     <div class="mx-auto my-10 max-w-6xl">
-        <h2 class="text-4xl ml-2">Blog</h2>
+        <h2 class="text-4xl ml-2">
+            <i class="fa-regular fa-newspaper"></i>
+            News &amp; Spotlights
+        </h2>
         {{- partial "recent.html" . -}}
     </div>
     {{- partial "footer.html" . -}}
-    <script src="{{ "/js/swiper-bundle.min.js" | relURL }}"></script>
+    <script src='{{ "/js/swiper-bundle.min.js" | relURL }}'></script>
     <script>
         var mySwiper = new Swiper(".swiper-container", {
             direction: "horizontal",
