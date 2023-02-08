@@ -1,9 +1,9 @@
 name = "Tella"
 license = "MIT"
-licenselink = "https://github.com/opera7133/tella/blob/master/LICENSE"
+licenselink = "https://github.com/Kempner-FD/hugo-tella/blob/master/LICENSE"
 description = "Simple, Light, Responsive"
 
-homepage = "https://github.com/opera7133/tella"
+homepage = "https://github.com/Kempner-FD/hugo-tella"
 demosite = "https://tella.pages.dev"
 
 tags = ["light", "simple", "blog", "clean", "tailwindcss", "responsive", "company", "modern", "slide"]
