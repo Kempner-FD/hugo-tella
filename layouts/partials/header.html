@@ -29,6 +29,7 @@
                 {{ range .Site.Menus.main }}
                 <a href="{{ .URL | safeURL }}"
                     class="duration-200 block mt-4 lg:inline-block lg:mt-0 text-black hover:opacity-60 mr-8">
+                    {{ .Pre }}
                     {{ .Name }}
                 </a>
                 {{ end }}
