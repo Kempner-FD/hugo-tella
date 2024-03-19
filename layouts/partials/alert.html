@@ -1,7 +1,12 @@
 {{if .Site.Data.alert}}
-<div class="bg-red-600 py-2">
+<div class="bg-red-600 py-2 px-4">
     {{ range .Site.Data.alert }}
-    <p class="ml-2 text-md text-white">>> {{ .date }} {{ .alert }}</p>
+    <p class="ml-2 text-md text-white"> 
+        <strong>{{ .date }}</strong> - {{ .alert }}
+        {{if .more}}
+        <a href="{{ .more }}" class="text-slate-300 pl-2">Learn more...</a>
+        {{ end }} 
+    </p>
     {{ end }}
 </div>
 {{end}}
